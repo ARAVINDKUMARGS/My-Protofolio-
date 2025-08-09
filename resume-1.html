@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><!-- Injected code, this is not present in original code --><meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script class="mnlqisc7" src="/mnlqisc7_console.js" crossorigin="anonymous"></script>
+    <script class="mnlqisc7">
+      if(window.eruda){
+        eruda.init({
+          theme: 'dark'
+        });
+
+        eruda._shadowRoot.querySelector('.eruda-entry-btn').style.display = 'none';
+
+        sessionStorage.setItem('__console_available', true);
+        document.addEventListener('showconsole', function () {eruda.show()});
+        document.addEventListener('hideconsole', function () {eruda.hide()});
+      }else if(document.querySelector('c-toggler')){
+        document.querySelector('c-toggler').style.display = 'none';
+      }
+      setTimeout(function(){
+        var scripts = document.querySelectorAll('.mnlqisc7');
+        scripts.forEach(function(el){document.head.removeChild(el)});
+      }, 0);
+    </script><!-- Injected code, this is not present in original code -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ak's Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      background: #f5f5f5;
+      color: #333;
+    }
+    header {
+      background: linear-gradient(90deg, #4CAF50, #2E7D32);
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+    section {
+      max-width: 900px;
+      margin: auto;
+      padding: 2rem;
+      background: white;
+      margin-top: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    h2 {
+      color: #4CAF50;
+      margin-bottom: 10px;
+    }
+    .skills span {
+      display: inline-block;
+      background: #e0f2f1;
+      padding: 8px 12px;
+      margin: 5px;
+      border-radius: 20px;
+      font-size: 14px;
+    }
+    .projects div {
+      padding: 10px;
+      border-bottom: 1px solid #ddd;
+    }
+    footer {
+      background: #2E7D32;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 20px;
+    }
+    .btn {
+      display: inline-block;
+      padding: 10px 20px;
+      margin-top: 10px;
+      background: #4CAF50;
+      color: white;
+      border-radius: 5px;
+      text-decoration: none;
+    }
+    .btn:hover {
+      background: #388E3C;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Ak's Portfolio</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#achievements">Achievements</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Hello! I’m Ak, a BE CSE 2nd-year student at Meenakshi College of Engineering.  
+    I’m passionate about coding, problem-solving, and creating impactful projects. I love following syntax and grammar both in computer and human languages.</p>
+    <a href="resume.pdf" class="btn" download>Download Resume</a>
+  </section>
+
+  <section id="skills" class="skills">
+    <h2>Skills</h2>
+    <span>Python</span>
+    <span>Java</span>
+    <span>HTML</span>
+    <span>CSS</span>
+    <span>JavaScript</span>
+    <span>SQL</span>
+    <span>Data Analysis</span>
+    <span>OS Concepts</span>
+  </section>
+
+  <section id="projects" class="projects">
+    <h2>Projects</h2>
+    <div>
+      <strong>Aushway - Health-Tech Platform</strong>
+      <p>Comprehensive platform for ambulance booking, medicine delivery, and AI-powered support.</p>
+    </div>
+    <div>
+      <strong>Saathi.AI</strong>
+      <p>Real-time mental health and suicide prevention assistant for students.</p>
+    </div>
+    <div>
+      <strong>To-Do List App</strong>
+      <p>Python-based task manager with GUI.</p>
+    </div>
+  </section>
+
+  <section id="achievements">
+    <h2>Achievements</h2>
+    <ul>
+      <li>Winner of multiple quiz competitions in college.</li>
+      <li>Successfully completed Python internship at CodSoft.</li>
+      <li>Selected for 1M1B Green Internship Program (Batch 5).</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:ak@example.com">ak@example.com</a></p>
+    <p>LinkedIn: <a href="https://linkedin.com/in/ak" target="_blank">linkedin.com/in/ak</a></p>
+    <p>GitHub: <a href="https://github.com/ak" target="_blank">github.com/ak</a></p>
+  </section>
+
+  <footer>
+    <p>© 2025 Ak | Designed with ❤️</p>
+  </footer>
+</body>
+</html>
