@@ -48,3 +48,148 @@ git clone https://github.com/<your-username>/<your-repo>.git
 git add .
 git commit -m "Initial portfolio"
 git push origin main
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title><!-- Your Name --> - Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <div class="container">
+      <h1><!-- Your Name --></h1>
+      <p><!-- Your Tagline --></p>
+    </div>
+  </header>
+
+  <!-- NAVIGATION -->
+  <nav>
+    <a href="#about">About</a>
+    <a href="#education">Education</a>
+    <a href="#experience">Experience</a>
+    <a href="#projects">Projects</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <!-- ABOUT -->
+  <section id="about" class="container">
+    <h2>About Me</h2>
+    <p><!-- Short intro about yourself --></p>
+  </section>
+
+  <!-- EDUCATION -->
+  <section id="education" class="container">
+    <h2>Education</h2>
+    <ul>
+      <li><!-- Your education details --></li>
+    </ul>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience" class="container">
+    <h2>Experience</h2>
+    <ul>
+      <li><!-- Internship/Job details --></li>
+    </ul>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="container">
+    <h2>Projects</h2>
+    <ul>
+      <li><!-- Project 1 --></li>
+      <li><!-- Project 2 --></li>
+    </ul>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="container">
+    <h2>Skills</h2>
+    <ul>
+      <li><!-- Skill 1 --></li>
+      <li><!-- Skill 2 --></li>
+    </ul>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="container">
+    <h2>Contact</h2>
+    <p>Email: <!-- Your Email --></p>
+    <p>GitHub: <a href="#"><!-- GitHub Link --></a></p>
+    <p>LinkedIn: <a href="#"><!-- LinkedIn Link --></a></p>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>&copy; <span id="year"></span> <!-- Your Name -->. All rights reserved.</p>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+
+</body>
+</html>
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.container {
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+}
+
+header {
+  background: linear-gradient(to right, #6a11cb, #2575fc);
+  color: white;
+  padding: 40px 0;
+  text-align: center;
+}
+
+nav {
+  background: #222;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+nav a {
+  color: white;
+  padding: 15px 20px;
+  text-decoration: none;
+  display: block;
+}
+
+nav a:hover {
+  background: #2575fc;
+}
+
+section {
+  background: white;
+  margin: 20px 0;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+h2 {
+  color: #2575fc;
+}
+
+footer {
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 20px;
+}
